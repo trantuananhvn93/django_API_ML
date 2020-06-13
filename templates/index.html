@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+<div class="container">
+    <h1>Fill your car information:</h1>
+<form method="post" action="price">
+    {% csrf_token %}
+  <div class="form-group">
+    <label for="make">Make</label>
+    <input type="text" class="form-control" id="make" name="make" value="5">
+  </div>
+  <div class="form-group">
+    <label for="enginesize">Enginesize</label>
+    <input type="text" class="form-control" id="enginesize" name="enginesize" value="5.3">
+  </div>
+    <div class="form-group">
+    <label for="cylinders">Cylinders</label>
+    <input type="text" class="form-control" id="cylinders" name="cylinders" value="8">
+  </div>
+    <div class="form-group">
+    <label for="horsepower">Horsepower</label>
+    <input type="text" class="form-control" id="horsepower" name="horsepower" value="295">
+  </div>
+    <div class="form-group">
+    <label for="mpgcity">Mpg city</label>
+    <input type="text" class="form-control" id="mpgcity" name="mpgcity" value="14">
+  </div>
+    <div class="form-group">
+    <label for="mpghighway">Mpg highway</label>
+    <input type="text" class="form-control" id="mpghighway" name="mpghighway" value="18">
+  </div>
+    <div class="form-group">
+    <label for="weight">Weight</label>
+    <input type="text" class="form-control" id="weight" name="weight" value="5678">
+  </div>
+    <div class="form-group">
+    <label for="wheelbase">Wheelbase</label>
+    <input type="text" class="form-control" id="wheelbase" name="wheelbase" value="130">
+  </div>
+    <div class="form-group">
+    <label for="length">Length</label>
+    <input type="text" class="form-control" id="length" name="length" value="222">
+  </div>
+    <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+</div>
+
+{% endblock content %}
