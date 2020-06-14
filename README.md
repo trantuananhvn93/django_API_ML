@@ -15,4 +15,4 @@ Then visit `http://localhost:8000` to view the app.
 ## Data
 Data in `CARS.csv` from Kaggle
 
-ML model was build in the notebook `model.ipynb`
+ML model was built in the notebook `model.ipynb`
