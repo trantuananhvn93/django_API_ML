@@ -11,3 +11,7 @@ $ python manage.py runserver
 ```
 
 Then visit `http://localhost:8000` to view the app.
+
+--------------------------
+Data in `CARS.csv` from Kaggle
+ML model was build in the notebook `model.ipynb`
